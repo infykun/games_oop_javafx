@@ -21,6 +21,11 @@ public class Logic {
         this.figures[this.index++] = figure;
     }
 
+    private boolean free(Cell[] steps) throws OccupiedCellException {
+        return true;
+    }
+
+
     public boolean move(Cell source, Cell dest) {
         boolean rst = false;
         int index = this.findBy(source);

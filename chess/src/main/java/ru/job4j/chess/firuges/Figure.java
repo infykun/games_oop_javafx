@@ -1,5 +1,7 @@
 package ru.job4j.chess.firuges;
 
+import ru.job4j.chess.firuges.black.BishopBlack;
+
 public interface Figure {
     Cell position();
 
